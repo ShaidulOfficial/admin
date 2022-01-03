@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 100px;
+    letter-spacing:10px;
+    color: rgb(15, 227, 255);
+}
+.footer-content h3:hover{
+    color: rgb(162, 0, 255);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.footer-content .para1{
+    text-align:left;
+    
+    color: rgb(0, 255, 255);
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 5px 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 30px;
+    transition: color .4s ease;
+
+}
+
+
+.socials a:hover .face{
+    color: rgb(44, 118, 228);
+    /* font-size: 45px; */
+}
+.socials a:hover .tweet {
+    color: aqua;
+    
+}
+.socials a:hover .google{
+    color: rgb(250, 76, 7);
+    
+}
+.socials a:hover .ytube{
+    color: rgb(219, 9, 9);
+    
+}
+.socials a:hover .linkd{
+    color: rgb(19, 142, 212);
+    
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: bold;
+    color: rgb(21, 248, 116);
+    letter-spacing: 2px;
+}
+</style>
+
+</head>
+<body>
+    <footer >
+        <div class="footer-content">
+            <h3>Ecare Martin</h3>
+            <p >Thanks for visit our page</p>
+            <p >Email:  <a href="#" style="color:rgb(247, 12, 12) ;text-decoration: none;"> shaidulibcse@gmail.com</a></p>
+            <p class="para1">Facebook Page:</p>
+            <p class="para1">Bangladesh ,cumilla</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/shaidul.official.bd" target="blank"><i class=" face fa fa-facebook"></i></a></li>
+                <li><a href="#" ><i class=" tweet fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class=" google fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class=" ytube fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class=" linkd fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Develoed & designed by <span>Md. Shaidul Islam </span></p>
+        </div>
+    </footer>
+</body>
+</html>
